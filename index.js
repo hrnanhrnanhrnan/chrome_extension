@@ -57,8 +57,8 @@ function render(array){
     }
     else{
         for(let i = 0; i < array.length; i++){
-            listItems += `<li>
-                            <a target="_blank" href="${array[i]}">
+            listItems += `<li class="list-group-item bg-dark">
+                            <a class="text-white" target="_blank" href="${array[i]}">
                             ${array[i]}
                             </a><img id="delete-button-${i}" class="delete-button" src="/Images/exit.svg" alt="delete button">
                             </li>`;
